@@ -1,2 +1,4 @@
 # WeatherDashboard
-Week 6 homework Weather Dashboard
+Week 6 Assignment Weather Dashboard
+
+Being able to link server side APIs is important to a developer because it allows the developer to take information that already exists online and use it for a new application. APIs can be created through hard code if the information doesn't exist in an API already, but it saves time to use an API that already exists. Most sites online have either a closed or open API that can be helpful in creating new apps or adding info to existing ones. In this project, I have felt more confident with HTML as well as JavaScript and jQuery methods. One main challenge I had was linking the API to the code so that whenever the user clicked "search" it would return all the necessary fields. I also sometimes struggle with knowing when I should use what methods and their specific syntax.
