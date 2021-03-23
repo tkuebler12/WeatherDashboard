@@ -44,7 +44,7 @@ $(document).ready(function(){
         });
     }
     function getFiveDayForecast(userInput) {
-        var queryURL = "https://api.openweathermap.org/data/2.5/forecast?q=" + userInput + "&appid=7084016eb10114101ccb5ab1cc67be9e&units=imperial";
+        var queryURL = "http://api.openweathermap.org/data/2.5/forecast?q=" + userInput + "&appid=7084016eb10114101ccb5ab1cc67be9e&units=imperial";
         $.ajax({
             url: queryURL,
             method:"GET"
@@ -69,7 +69,7 @@ $(document).ready(function(){
         });
     }
 function getUVIndex(lat, lon) {
-    var queryURL = "https://api.openweathermap.org/data/2.5/uvi?lat=" + lat + "&lon=" + lon + "&appid=7084016eb10114101ccb5ab1cc67be9e";
+    var queryURL = "http://api.openweathermap.org/data/2.5/uvi?lat=" + lat + "&lon=" + lon + "&appid=7084016eb10114101ccb5ab1cc67be9e";
     $.ajax({
         url: queryURL,
         method:"GET"
